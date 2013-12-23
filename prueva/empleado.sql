@@ -1,4 +1,8 @@
-﻿CREATE TABLE `empleado` (
+﻿CREATE DATABASE Listado DEFAULT CHARACTER SET UTF8 COLLATE utf8_unicode_ci;
+
+USE Listado;
+
+CREATE TABLE `empleado` (
   `idempleado` int(11) NOT NULL auto_increment,
   `nombres` varchar(32) NOT NULL default '',
   `departamento` varchar(40) NOT NULL default '',
