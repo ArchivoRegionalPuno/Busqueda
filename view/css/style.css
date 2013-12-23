@@ -64,7 +64,6 @@ nav ul
 nav ul li
 {
 	display: inline-block;
-	border:1px red solid;
 	padding: 10px 10px;
 }
 nav ul li a
@@ -262,6 +261,13 @@ footer #oficina
 }
 
 @media (max-width: 480px){
+	nav
+	{
+		display: none;
+	}
+	#cuerpo{
+		display: block;
+	}
 	#header
 	{
 		display: block;
@@ -272,18 +278,40 @@ footer #oficina
 		width: 40%;
 		font-size: 1em;
 	}
-	nav
-	{
-		display: none;
-	}
 }
 
 
+@media (min-width: 700px){
+	aside
+	{
+		display: block;
+		width: 35%;
+	}
+	section{
+		width: 60%;
+		margin: 0;
+		padding: 0;
+	}
+	section, aside
+	{
+		display: inline-block;
+		vertical-align: top;	
+	}
+}
 @media (min-width: 1000px){
 	aside
 	{
 		display: block;
-		width: 25%;
-		float: right;
+		width: 35%;
+	}
+	section{
+		width: 60%;
+		margin: 0;
+		padding: 0;
+	}
+	section, aside
+	{
+		display: inline-block;
+		vertical-align: top;	
 	}
 }
