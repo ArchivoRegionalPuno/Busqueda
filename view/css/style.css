@@ -1,0 +1,289 @@
+/*
+azul Cabecera #4171b3;
+Verde   #698c00;
+Azul 1   #004e90;
+Azul 2   #1265a9;
+Azul 3   #4683c2;
+Azul 4   #438cd8;
+Negro    #2b2b2b;
+*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+aside
+{
+	display: none;
+}
+
+body
+{
+	background: #90D1D9;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header
+{
+	background-color: #4171b3;
+}
+
+#logo, #titulo
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header #titulo
+{
+	color: white;
+	text-shadow: 2px 2px black;
+	width: 70%;
+}
+header #logo img
+{
+	width: 100px;
+}
+
+nav
+{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+nav ul
+{
+	margin: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	border:1px red solid;
+	padding: 10px 10px;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+}
+
+footer
+{
+	background-color: #2b2b2b;
+	overflow: auto;
+}
+footer p
+{
+	color:white;
+	font-size: 0.7em;
+	width: 50%;
+	float: left;
+}
+footer #oficina
+{
+	color:white;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+#menu
+{
+	margin-top: 5px;
+}
+#header
+{
+	min-width: 1000px;
+	margin: 0 auto;
+}
+#header #titulo
+{
+	width: 60%;
+}
+
+#item1
+{
+	background: #698c00;
+	width: 10%;
+	text-align: center;
+}
+#item1 a:before
+{
+	content: "\e606";
+	font-family: "icomoon";
+	font-size: 1.5em;
+}
+#item1
+{
+	background: #698c00;
+	width: 10%;
+	text-align: center;
+}
+#item1 a:before
+{
+	content: "\e606";
+	font-family: "icomoon";
+	font-size: 1.5em;
+}
+#item2,#item3,#item4,#item5
+{
+	width: 20%;
+} 
+#item1
+{
+	background: #698c00;
+	width: 10%;
+	text-align: center;
+}
+#item1 a:before
+{
+	content: "\e606";
+	font-family: "icomoon";
+	font-size: 1.5em;
+}
+#item2
+{
+	background: #004e90;
+	text-align: center;
+}
+#item2 a:before
+{
+	content: "\e601";
+	font-family: "icomoon";
+	font-size: 1.5em;
+}
+#item3
+{
+	background: #1265a9;
+	text-align: center;
+}
+#item3 a:before
+{
+	content: "\e606";
+	font-family: "icomoon";
+	font-size: 1.5em;
+}
+#item4
+{
+	background: #4683c2;
+	text-align: center;
+}
+#item4 a:before
+{
+	content: "\e605";
+	font-family: "icomoon";
+	font-size: 1.5em;
+}
+#item5
+{
+	background: #438cd8;
+	text-align: center;
+}
+#item5 a:before
+{
+	content: "\e604";
+	font-family: "icomoon";
+	font-size: 1.5em;
+}
+
+.boton{
+	background: #1265a9;
+	border-radius: 5px;
+	padding: 20px 20px;
+	margin:10px auto;
+	width: 80%;
+}
+.boton .img1:before
+{
+	color: white;
+	content: "\e601";
+	float: left;
+	font-size: 1.5em;
+	font-family: "icomoon";
+	padding: 0 10px;
+}
+.boton .img2:before
+{
+	color: red;
+	content: "\e600";
+	float: left;
+	font-size: 1.5em;
+	font-family: "icomoon";
+	padding: 0 10px;
+}
+.boton .img3:before
+{
+	color: white;
+	content: "\e602";
+	float: left;
+	font-size: 1.5em;
+	font-family: "icomoon";
+	padding: 0 10px;
+}
+.boton .img4:before
+{
+	color: yellow;
+	content: "\e602";
+	float: left;
+	font-size: 1.5em;
+	font-family: "icomoon";
+	padding: 0 10px;
+}
+.boton .img5:before
+{
+	color: yellow;
+	content: "\e605";
+	float: left;
+	font-size: 1.5em;
+	font-family: "icomoon";
+	padding: 0 10px;
+}
+.boton .img6:before
+{
+	color: orange;
+	content: "\e604";
+	float: left;
+	font-size: 1.5em;
+	font-family: "icomoon";
+	padding: 0 10px;
+}
+
+.boton .texto
+{
+	color: white;
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+
+@media (max-width: 480px){
+	#header
+	{
+		display: block;
+		width: 100%;
+	}
+	#header #titulo
+	{
+		width: 40%;
+		font-size: 1em;
+	}
+	nav
+	{
+		display: none;
+	}
+}
+
+
+@media (min-width: 1000px){
+	aside
+	{
+		display: block;
+		width: 25%;
+		float: right;
+	}
+}
